@@ -176,7 +176,6 @@ h2 {
 #bgNav ul li {
   display: inline-block;
   position: relative;
-  float: left;
   margin-right: 5px;
   line-height: 0;
 }
@@ -242,7 +241,6 @@ h2 {
 }
 .sliderBtnHolder .sliderPrev {
   display: inline-block;
-  float: left;
   width: 47px;
   height: 47px;
   overflow: hidden;
@@ -255,7 +253,6 @@ h2 {
 }
 .sliderBtnHolder .sliderNext {
   display: inline-block;
-  float: right;
   width: 47px;
   height: 47px;
   overflow: hidden;
@@ -317,7 +314,6 @@ header {
   position: relative;
   color: #383636;
   display: inline-block;
-  float: left;
   height: 60px;
 }
 .sf-menu > li > a {
@@ -531,7 +527,6 @@ header {
 .titile img {
   position: relative;
   display: inline-block;
-  float: left;
 }
 .btn {
   font: 700 12px/12px 'Ubuntu', sans-serif;
@@ -627,7 +622,6 @@ blockquote {
 blockquote img {
   position: relative;
   display: inline-block;
-  float: left;
   margin-right: 19px;
 }
 blockquote p {
@@ -657,7 +651,6 @@ blockquote p strong {
   width: 100%;
   position: relative;
   display: inline-block;
-  float: left;
   background: url('../img/marker.png') 0 6px no-repeat;
   padding: 0 0 0 14px;
   min-height: 18px;
@@ -733,7 +726,6 @@ blockquote p strong {
 .blog img {
   position: relative;
   display: inline-block;
-  float: left;
   margin: 5px 30px 0 0;
 }
 .blog .blog_info {
@@ -991,7 +983,6 @@ footer {
 .block_info1 {
   position: relative;
   display: inline-block;
-  float: left;
   width: 195px;
   padding: 19px 0 0 32px;
   background: url('../img/separatop.png') right 0 no-repeat;
@@ -1004,7 +995,6 @@ footer {
 .block_info2 {
   position: relative;
   display: inline-block;
-  float: left;
   width: 252px;
   padding: 19px 0 0 17px;
   background: url('../img/separatop.png') right 0 no-repeat;
@@ -1076,7 +1066,7 @@ footer {
 }
 /*Core variables and mixins*/
 .clearfix {
-  *zoom: 1;
+  zoom: 1;
 }
 .clearfix:before,
 .clearfix:after {
