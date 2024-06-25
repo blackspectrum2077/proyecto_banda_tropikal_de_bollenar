@@ -205,15 +205,15 @@ h2 {
   margin: 0;
 }
 #slider_simple1 > .slider_set > li .sliderText1 {
-  font: 700 72px/51px 'Ubuntu', sans-serif;
+  font: 700 50px/50px 'Ubuntu', sans-serif;
   display: inline-block;
   color: #039be6;
-  width: 100%;
+  width: 50%;
   text-align: left;
   text-transform: uppercase;
 }
 #slider_simple1 > .slider_set > li .sliderText2 {
-  font: 24px/24px 'Ubuntu', sans-serif;
+  font: 10px/24px 'Ubuntu', sans-serif;
   display: inline-block;
   color: #ffffff;
   width: 100%;
