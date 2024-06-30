@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Subir PDF</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your keywords">
+    <meta name="author" content="Your name">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/preview.css" type="text/css">
+    <script type="text/javascript" src="js/include_script.js"></script>
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <link href="css/ie.css" rel="stylesheet" type="text/css">
+    <![endif]-->
+    <style>
+        body {
+            background-color: #8B4513; /* Rojo café */
+            font-family: Arial, sans-serif;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+        }
+        body::before {
+            background-color: #973518;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://cdn.pixabay.com/photo/2018/02/26/14/19/hammer-3183166_1280.png') no-repeat center center;
+            background-size: cover;
+            opacity: 0.5; /* Translucidez de la imagen de fondo */
+            z-index: -1; /* Coloca la imagen detrás del contenido */
+        }
+        h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #ffffff; 
+        }
+        form {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        input[type="file"] {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #fff;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.2);
+            color: #fff;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #28a745;
+            color: #fff;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <h2>Subir Archivo PDF</h2>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="pdf_file" accept="application/pdf">
+        <input type="submit" value="Subir PDF">
+    </form>
+</body>
+</html>
